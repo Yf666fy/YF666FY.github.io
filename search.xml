@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>003变量</title>
+      <link href="/2024/11/21/003%E5%8F%98%E9%87%8F/"/>
+      <url>/2024/11/21/003%E5%8F%98%E9%87%8F/</url>
+      
+        <content type="html"><![CDATA[<p>演示Python中变量的相关操作<br>“””</p><h1 id="变量的值是可以改变的"><a href="#变量的值是可以改变的" class="headerlink" title="变量的值是可以改变的"></a>变量的值是可以改变的</h1><h1 id="变量的定义格式-变量名-变量值"><a href="#变量的定义格式-变量名-变量值" class="headerlink" title="变量的定义格式: 变量名 &#x3D; 变量值"></a>变量的定义格式: 变量名 &#x3D; 变量值</h1><h1 id="定义一个变量-用来记录"><a href="#定义一个变量-用来记录" class="headerlink" title="定义一个变量,用来记录"></a>定义一个变量,用来记录</h1><p>money &#x3D; 50</p><h1 id="通过print语句-输出变量记录的内容"><a href="#通过print语句-输出变量记录的内容" class="headerlink" title="通过print语句,输出变量记录的内容"></a>通过print语句,输出变量记录的内容</h1><p>print(“钱包还有:”, money)</p><h1 id="买了一个东西-花费10元"><a href="#买了一个东西-花费10元" class="headerlink" title="买了一个东西,花费10元"></a>买了一个东西,花费10元</h1><p>money &#x3D; money - 10<br>print(“花费10元,还剩余:”, money, “元”)</p><h1 id="整除-取余-指数-优先运算"><a href="#整除-取余-指数-优先运算" class="headerlink" title="+ - * &#x2F; &#x2F;&#x2F;整除 %取余 **指数 ()优先运算"></a>+ - * &#x2F; &#x2F;&#x2F;整除 %取余 **指数 ()优先运算</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>005数据类型及转换</title>
       <link href="/2024/11/21/005%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E8%BD%AC%E6%8D%A2/"/>
       <url>/2024/11/21/005%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E8%BD%AC%E6%8D%A2/</url>
@@ -22,19 +35,6 @@
       <url>/2024/11/21/004pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
       
         <content type="html"><![CDATA[<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><p>File: Alt + F1 打开文件<br>New File: Alt + Insert 创建新文件<br>Close: Ctrl + F4 关闭当前文件<br>Save: Ctrl + S 保存当前文件<br>Save All: Ctrl + Alt + S 保存所有更改的文件</p><h1 id="编辑操作"><a href="#编辑操作" class="headerlink" title="编辑操作"></a>编辑操作</h1><p>Undo: Ctrl + Z 撤销<br>Redo: Ctrl + Shift + Z 重做<br>Cut: Ctrl + X 剪切<br>Copy: Ctrl + C 复制<br>Paste: Ctrl + V 粘贴<br>Delete: Delete 删除<br>Select All: Ctrl + A 全选<br>Find: Ctrl + F 查找<br>Find Next: F3 查找下一个<br>Find Previous: Shift + F3 查找上一个<br>Replace: Ctrl + R 替换<br>Find Usages: Alt + F7 查找使用<br>Replace in Files: Ctrl + R 在文件中替换</p><h1 id="代码导航"><a href="#代码导航" class="headerlink" title="代码导航"></a>代码导航</h1><p>Go to Class: Ctrl + N 跳转到类<br>Go to File: Ctrl + Shift + N 跳转到文件<br>Go to Symbol: Alt + F12 跳转到符号<br>Go to Line: Ctrl + G 跳转到行<br>Back: Alt + Left 后退<br>Forward: Alt + Right 前进</p><h1 id="代码操作"><a href="#代码操作" class="headerlink" title="代码操作"></a>代码操作</h1><p>Comment&#x2F;Uncomment: Ctrl + &#x2F; 切换注释<br>Auto-Indent Lines: Tab 自动缩进<br>Unindent Lines: Shift + Tab 取消缩进<br>Reformat Code: Ctrl + Alt + L 格式化代码<br>Optimize Imports: Ctrl + Alt + O 优化导入<br>Surround With: Ctrl + Alt + T 包围代码（如 if 语句）</p><h1 id="调试和运行"><a href="#调试和运行" class="headerlink" title="调试和运行"></a>调试和运行</h1><p>Run: Shift + F10 运行程序<br>Debug: Shift + F9 开始调试<br>Stop: Ctrl + F2 停止程序<br>Step Over: F8 单步跳过<br>Step Into: F7 单步进入<br>Step Out: Shift + F8 单步跳出</p><h1 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h1><p>Commit: Ctrl + K 提交<br>Push: Ctrl + Shift + K 推送<br>Pull: Ctrl + T 拉取</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>002变量</title>
-      <link href="/2024/11/21/003%E5%8F%98%E9%87%8F/"/>
-      <url>/2024/11/21/003%E5%8F%98%E9%87%8F/</url>
-      
-        <content type="html"><![CDATA[<p>“””<br>演示Python中变量的相关操作<br>“””</p><h1 id="变量的值是可以改变的"><a href="#变量的值是可以改变的" class="headerlink" title="变量的值是可以改变的"></a>变量的值是可以改变的</h1><h1 id="变量的定义格式-变量名-变量值"><a href="#变量的定义格式-变量名-变量值" class="headerlink" title="变量的定义格式: 变量名 &#x3D; 变量值"></a>变量的定义格式: 变量名 &#x3D; 变量值</h1><h1 id="定义一个变量-用来记录"><a href="#定义一个变量-用来记录" class="headerlink" title="定义一个变量,用来记录"></a>定义一个变量,用来记录</h1><p>money &#x3D; 50</p><h1 id="通过print语句-输出变量记录的内容"><a href="#通过print语句-输出变量记录的内容" class="headerlink" title="通过print语句,输出变量记录的内容"></a>通过print语句,输出变量记录的内容</h1><p>print(“钱包还有:”, money)</p><h1 id="买了一个东西-花费10元"><a href="#买了一个东西-花费10元" class="headerlink" title="买了一个东西,花费10元"></a>买了一个东西,花费10元</h1><p>money &#x3D; money - 10<br>print(“花费10元,还剩余:”, money, “元”)</p><h1 id="整除-取余-指数-优先运算"><a href="#整除-取余-指数-优先运算" class="headerlink" title="+ - * &#x2F; &#x2F;&#x2F;整除 %取余 **指数 ()优先运算"></a>+ - * &#x2F; &#x2F;&#x2F;整除 %取余 **指数 ()优先运算</h1>]]></content>
       
       
       
