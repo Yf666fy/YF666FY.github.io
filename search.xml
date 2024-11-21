@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>003变量</title>
-      <link href="/2024/11/21/003%E5%8F%98%E9%87%8F/"/>
-      <url>/2024/11/21/003%E5%8F%98%E9%87%8F/</url>
-      
-        <content type="html"><![CDATA[<p>演示Python中变量的相关操作<br>“””</p><h1 id="变量的值是可以改变的"><a href="#变量的值是可以改变的" class="headerlink" title="变量的值是可以改变的"></a>变量的值是可以改变的</h1><h1 id="变量的定义格式-变量名-变量值"><a href="#变量的定义格式-变量名-变量值" class="headerlink" title="变量的定义格式: 变量名 &#x3D; 变量值"></a>变量的定义格式: 变量名 &#x3D; 变量值</h1><h1 id="定义一个变量-用来记录"><a href="#定义一个变量-用来记录" class="headerlink" title="定义一个变量,用来记录"></a>定义一个变量,用来记录</h1><p>money &#x3D; 50</p><h1 id="通过print语句-输出变量记录的内容"><a href="#通过print语句-输出变量记录的内容" class="headerlink" title="通过print语句,输出变量记录的内容"></a>通过print语句,输出变量记录的内容</h1><p>print(“钱包还有:”, money)</p><h1 id="买了一个东西-花费10元"><a href="#买了一个东西-花费10元" class="headerlink" title="买了一个东西,花费10元"></a>买了一个东西,花费10元</h1><p>money &#x3D; money - 10<br>print(“花费10元,还剩余:”, money, “元”)</p><h1 id="整除-取余-指数-优先运算"><a href="#整除-取余-指数-优先运算" class="headerlink" title="+ - * &#x2F; &#x2F;&#x2F;整除 %取余 **指数 ()优先运算"></a>+ - * &#x2F; &#x2F;&#x2F;整除 %取余 **指数 ()优先运算</h1>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>005数据类型及转换</title>
       <link href="/2024/11/21/005%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E8%BD%AC%E6%8D%A2/"/>
       <url>/2024/11/21/005%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E8%BD%AC%E6%8D%A2/</url>
@@ -43,11 +30,24 @@
     
     
     <entry>
+      <title>003变量</title>
+      <link href="/2024/11/21/003%E5%8F%98%E9%87%8F/"/>
+      <url>/2024/11/21/003%E5%8F%98%E9%87%8F/</url>
+      
+        <content type="html"><![CDATA[<p>“””<br>演示Python中变量的相关操作<br>“””</p><h1 id="变量的值是可以改变的"><a href="#变量的值是可以改变的" class="headerlink" title="变量的值是可以改变的"></a>变量的值是可以改变的</h1><h1 id="变量的定义格式-变量名-变量值"><a href="#变量的定义格式-变量名-变量值" class="headerlink" title="变量的定义格式: 变量名 &#x3D; 变量值"></a>变量的定义格式: 变量名 &#x3D; 变量值</h1><h1 id="定义一个变量-用来记录"><a href="#定义一个变量-用来记录" class="headerlink" title="定义一个变量,用来记录"></a>定义一个变量,用来记录</h1><p>money &#x3D; 50</p><h1 id="通过print语句-输出变量记录的内容"><a href="#通过print语句-输出变量记录的内容" class="headerlink" title="通过print语句,输出变量记录的内容"></a>通过print语句,输出变量记录的内容</h1><p>print(“钱包还有:”, money)</p><h1 id="买了一个东西-花费10元"><a href="#买了一个东西-花费10元" class="headerlink" title="买了一个东西,花费10元"></a>买了一个东西,花费10元</h1><p>money &#x3D; money - 10<br>print(“花费10元,还剩余:”, money, “元”)</p><h1 id="整除-取余-指数-优先运算"><a href="#整除-取余-指数-优先运算" class="headerlink" title="+ - * &#x2F; &#x2F;&#x2F;整除 %取余 **指数 ()优先运算"></a>+ - * &#x2F; &#x2F;&#x2F;整除 %取余 **指数 ()优先运算</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>002注释</title>
       <link href="/2024/11/21/002%E6%B3%A8%E9%87%8A/"/>
       <url>/2024/11/21/002%E6%B3%A8%E9%87%8A/</url>
       
-        <content type="html"><![CDATA[<h1 id="我的第一个注释-加上注释符号代表这行代码是不用行的"><a href="#我的第一个注释-加上注释符号代表这行代码是不用行的" class="headerlink" title="我的第一个注释  加上注释符号代表这行代码是不用行的"></a>我的第一个注释  加上注释符号代表这行代码是不用行的</h1><h1 id="单行注释"><a href="#单行注释" class="headerlink" title="单行注释"></a>单行注释</h1><p>“””<br>我的第二种注释<br>多行注释<br>建议对函数注释<br>“””</p><p>‘’’<br>也是多行注释<br>建议用在其他地方的注释<br>‘’’</p><h1 id="输出100"><a href="#输出100" class="headerlink" title="输出100"></a>输出100</h1><p>print(‘100’)</p><p>“””<br>以下俩行代码是为了输出：<br>Hello<br>Word<br>“””<br>print(‘Hello’)<br>print(‘Word’)</p>]]></content>
+        <content type="html"><![CDATA[<p>Name<br>Latest commit<br>Yf666fy<br>Yf666fy<br>Site updated: 2024-11-21 17:25:17<br>c8b5831<br> ·<br>2 minutes ago<br>History<br>2024&#x2F;11&#x2F;21</p>]]></content>
       
       
       
